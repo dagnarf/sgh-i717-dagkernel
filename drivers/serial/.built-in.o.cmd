@@ -1,0 +1,1 @@
+cmd_drivers/serial/built-in.o :=  /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/serial/built-in.o drivers/serial/serial_core.o drivers/serial/msm_serial_hs.o drivers/serial/msm_serial_hs_lite.o 

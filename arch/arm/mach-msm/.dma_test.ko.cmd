@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-msm/dma_test.ko := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/gabe/stock_note/dagkernel/scripts/module-common.lds --build-id -o arch/arm/mach-msm/dma_test.ko arch/arm/mach-msm/dma_test.o arch/arm/mach-msm/dma_test.mod.o

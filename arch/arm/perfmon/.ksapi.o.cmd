@@ -1,0 +1,1 @@
+cmd_arch/arm/perfmon/ksapi.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o arch/arm/perfmon/ksapi.o arch/arm/perfmon/perf-v7.o arch/arm/perfmon/per.o arch/arm/perfmon/per-process-perf.o arch/arm/perfmon/per-axi.o arch/arm/perfmon/perf-smp.o 

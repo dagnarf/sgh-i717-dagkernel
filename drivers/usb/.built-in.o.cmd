@@ -1,0 +1,1 @@
+cmd_drivers/usb/built-in.o :=  /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/built-in.o drivers/usb/core/built-in.o drivers/usb/host/built-in.o drivers/usb/class/built-in.o drivers/usb/storage/built-in.o drivers/usb/misc/built-in.o drivers/usb/early/built-in.o drivers/usb/notify/built-in.o 

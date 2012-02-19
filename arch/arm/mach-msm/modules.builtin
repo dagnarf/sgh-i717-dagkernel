@@ -1,0 +1,9 @@
+kernel/arch/arm/mach-msm/sdio_al.ko
+kernel/arch/arm/mach-msm/sdio_al_test.ko
+kernel/arch/arm/mach-msm/sdio_al_dloader.ko
+kernel/arch/arm/mach-msm/sec_switch.ko
+kernel/arch/arm/mach-msm/pmic8058-gpio.ko
+kernel/arch/arm/mach-msm/pmic8058-mpp.ko
+kernel/arch/arm/mach-msm/rpm_stats.ko
+kernel/arch/arm/mach-msm/rpm_log.ko
+kernel/arch/arm/mach-msm/qdsp6v2/snddev_icodec.ko

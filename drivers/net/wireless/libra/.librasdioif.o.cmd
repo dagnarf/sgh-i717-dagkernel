@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libra/librasdioif.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/net/wireless/libra/librasdioif.o drivers/net/wireless/libra/libra_sdioif.o drivers/net/wireless/libra/qcomwlan_pwrif.o 

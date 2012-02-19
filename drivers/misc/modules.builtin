@@ -1,0 +1,9 @@
+kernel/drivers/misc/ak8975.ko
+kernel/drivers/misc/k3dh.ko
+kernel/drivers/misc/pmic8058-pwm.ko
+kernel/drivers/misc/pmic8058-nfc.ko
+kernel/drivers/misc/pmic8058-upl.ko
+kernel/drivers/misc/pmic8058-xoadc.ko
+kernel/drivers/misc/pmic8058-misc.ko
+kernel/drivers/misc/tzcom.ko
+kernel/drivers/misc/a2220.ko

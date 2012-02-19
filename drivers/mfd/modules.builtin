@@ -1,0 +1,6 @@
+kernel/drivers/mfd/marimba-core.ko
+kernel/drivers/mfd/timpani-codec.ko
+kernel/drivers/mfd/msm-adie-codec.ko
+kernel/drivers/mfd/mfd-core.ko
+kernel/drivers/mfd/pmic8058.ko
+kernel/drivers/mfd/pmic8901.ko

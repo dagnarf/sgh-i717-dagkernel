@@ -1,0 +1,1 @@
+cmd_drivers/gpu/msm/msm_kgsl_core.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/gpu/msm/msm_kgsl_core.o drivers/gpu/msm/kgsl.o drivers/gpu/msm/kgsl_log.o drivers/gpu/msm/kgsl_mmu.o drivers/gpu/msm/kgsl_sharedmem.o drivers/gpu/msm/kgsl_pwrctrl.o drivers/gpu/msm/kgsl_postmortem.o 

@@ -1,0 +1,17 @@
+kernel/sound/soundcore.ko
+kernel/sound/core/snd.ko
+kernel/sound/core/snd-hwdep.ko
+kernel/sound/core/snd-timer.ko
+kernel/sound/core/snd-pcm.ko
+kernel/sound/core/snd-page-alloc.ko
+kernel/sound/core/snd-rawmidi.ko
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/msm/snd-soc-msm8x60-dai.ko
+kernel/sound/soc/msm/snd-soc-msm8x60-pcm.ko
+kernel/sound/soc/msm/snd-soc-msm8x60.ko
+kernel/sound/soc/msm/snd-soc-msm-mvs-dai.ko
+kernel/sound/soc/msm/snd-soc-mvs8x60.ko
+kernel/sound/soc/msm/snd-soc-msm-voip.ko
+kernel/sound/soc/msm/snd-soc-msm8660-dma.ko
+kernel/sound/usb/snd-usb-audio.ko
+kernel/sound/usb/snd-usbmidi-lib.ko

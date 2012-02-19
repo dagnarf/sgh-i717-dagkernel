@@ -1,0 +1,1 @@
+cmd_drivers/i2c/chips/built-in.o :=  /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/i2c/chips/built-in.o drivers/i2c/chips/yda165_integ.o drivers/i2c/chips/gp2a_proximity.o drivers/i2c/chips/gp2a_light.o drivers/i2c/chips/gp2a_proc.o drivers/i2c/chips/fsa9480.o drivers/i2c/chips/k3g.o drivers/i2c/chips/orientation.o 

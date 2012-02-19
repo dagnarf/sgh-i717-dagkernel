@@ -1,0 +1,6 @@
+kernel/drivers/i2c/chips/gp2a_proximity.ko
+kernel/drivers/i2c/chips/gp2a_light.ko
+kernel/drivers/i2c/chips/gp2a_proc.ko
+kernel/drivers/i2c/chips/fsa9480.ko
+kernel/drivers/i2c/chips/k3g.ko
+kernel/drivers/i2c/chips/orientation.ko

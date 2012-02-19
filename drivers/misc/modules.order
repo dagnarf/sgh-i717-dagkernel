@@ -1,0 +1,3 @@
+kernel/drivers/misc/msm_tsif.ko
+kernel/drivers/misc/tsif_chrdev.ko
+kernel/drivers/misc/vibetonz/vibrator.ko

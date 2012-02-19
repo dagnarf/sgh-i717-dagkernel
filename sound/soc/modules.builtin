@@ -1,0 +1,8 @@
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/msm/snd-soc-msm8x60-dai.ko
+kernel/sound/soc/msm/snd-soc-msm8x60-pcm.ko
+kernel/sound/soc/msm/snd-soc-msm8x60.ko
+kernel/sound/soc/msm/snd-soc-msm-mvs-dai.ko
+kernel/sound/soc/msm/snd-soc-mvs8x60.ko
+kernel/sound/soc/msm/snd-soc-msm-voip.ko
+kernel/sound/soc/msm/snd-soc-msm8660-dma.ko

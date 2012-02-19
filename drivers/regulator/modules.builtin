@@ -1,0 +1,2 @@
+kernel/drivers/regulator/pmic8058-regulator.ko
+kernel/drivers/regulator/pmic8901-regulator.ko

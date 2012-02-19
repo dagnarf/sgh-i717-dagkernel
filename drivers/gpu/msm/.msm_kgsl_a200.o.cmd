@@ -1,0 +1,1 @@
+cmd_drivers/gpu/msm/msm_kgsl_a200.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/gpu/msm/msm_kgsl_a200.o drivers/gpu/msm/kgsl_ringbuffer.o drivers/gpu/msm/kgsl_drawctxt.o drivers/gpu/msm/kgsl_cmdstream.o drivers/gpu/msm/kgsl_yamato.o 

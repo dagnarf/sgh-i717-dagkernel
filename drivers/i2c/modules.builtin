@@ -1,0 +1,12 @@
+kernel/drivers/i2c/i2c-core.ko
+kernel/drivers/i2c/i2c-dev.ko
+kernel/drivers/i2c/algos/i2c-algo-bit.ko
+kernel/drivers/i2c/busses/i2c-gpio.ko
+kernel/drivers/i2c/busses/i2c-qup.ko
+kernel/drivers/i2c/busses/i2c-ssbi.ko
+kernel/drivers/i2c/chips/gp2a_proximity.ko
+kernel/drivers/i2c/chips/gp2a_light.ko
+kernel/drivers/i2c/chips/gp2a_proc.ko
+kernel/drivers/i2c/chips/fsa9480.ko
+kernel/drivers/i2c/chips/k3g.ko
+kernel/drivers/i2c/chips/orientation.ko

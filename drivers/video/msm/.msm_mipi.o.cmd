@@ -1,0 +1,1 @@
+cmd_drivers/video/msm/msm_mipi.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/video/msm/msm_mipi.o drivers/video/msm/mipi_dsi.o drivers/video/msm/mipi_dsi_host.o 

@@ -1,0 +1,2 @@
+kernel/drivers/net/wireless/bcm4330/dhd.ko
+kernel/drivers/net/wireless/libra/librasdioif.ko
