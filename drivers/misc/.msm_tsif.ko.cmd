@@ -1,1 +1,1 @@
-cmd_drivers/misc/msm_tsif.ko := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/gabe/stock_note/dagkernel/scripts/module-common.lds --build-id -o drivers/misc/msm_tsif.ko drivers/misc/msm_tsif.o drivers/misc/msm_tsif.mod.o
+cmd_drivers/misc/msm_tsif.ko := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-ld -EL -r  -T /home/gabe/stock_note/sgh-i717-dagkernel/scripts/module-common.lds --build-id -o drivers/misc/msm_tsif.ko drivers/misc/msm_tsif.o drivers/misc/msm_tsif.mod.o

@@ -1,4 +1,4 @@
-cmd_drivers/usb/class/cdc-acm.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,drivers/usb/class/.cdc-acm.o.d  -nostdinc -isystem /home/gabe/arm-2009q3/arm-2009q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include -I/home/gabe/stock_note/dagkernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(cdc_acm)"  -D"KBUILD_MODNAME=KBUILD_STR(cdc_acm)" -D"DEBUG_HASH=42" -D"DEBUG_HASH2=14" -c -o drivers/usb/class/cdc-acm.o drivers/usb/class/cdc-acm.c
+cmd_drivers/usb/class/cdc-acm.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,drivers/usb/class/.cdc-acm.o.d  -nostdinc -isystem /home/gabe/arm-2009q3/arm-2009q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include -I/home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(cdc_acm)"  -D"KBUILD_MODNAME=KBUILD_STR(cdc_acm)" -D"DEBUG_HASH=42" -D"DEBUG_HASH2=14" -c -o drivers/usb/class/cdc-acm.o drivers/usb/class/cdc-acm.c
 
 deps_drivers/usb/class/cdc-acm.o := \
   drivers/usb/class/cdc-acm.c \
@@ -25,25 +25,25 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc4.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/linkage.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/linkage.h \
   include/linux/stddef.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/types.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/bitsperlong.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/posix_types.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/posix_types.h \
   include/linux/bitops.h \
     $(wildcard include/config/generic/find/first/bit.h) \
     $(wildcard include/config/generic/find/last/bit.h) \
     $(wildcard include/config/generic/find/next/bit.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/bitops.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/bitops.h \
     $(wildcard include/config/smp.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/system.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/system.h \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
@@ -57,12 +57,12 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/irqflags.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/ptrace.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/irqflags.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/hwcap.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/outercache.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/hwcap.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/asm-generic/cmpxchg-local.h \
@@ -77,20 +77,20 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/arch/has/ilog2/u32.h) \
     $(wildcard include/config/arch/has/ilog2/u64.h) \
   include/linux/dynamic_debug.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/byteorder.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/swab.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/bug.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/div64.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/div64.h \
   include/linux/errno.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/errno.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/init.h \
@@ -139,12 +139,12 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/thread_info.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/fpstate.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/domain.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/domain.h \
     $(wildcard include/config/verify/permission/fault.h) \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/mmu.h) \
@@ -154,21 +154,21 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/prefetch.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/processor.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/cache.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/processor.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
   include/linux/spinlock_types.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/spinlock_types.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/spinlock_types.h \
   include/linux/lockdep.h \
     $(wildcard include/config/lockdep.h) \
     $(wildcard include/config/lock/stat.h) \
     $(wildcard include/config/generic/hardirqs.h) \
     $(wildcard include/config/prove/rcu.h) \
   include/linux/rwlock_types.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/spinlock.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/spinlock.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_smp.h \
     $(wildcard include/config/inline/spin/lock.h) \
@@ -200,11 +200,11 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/inline/write/unlock/irq.h) \
     $(wildcard include/config/inline/read/unlock/irqrestore.h) \
     $(wildcard include/config/inline/write/unlock/irqrestore.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/atomic.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/atomic.h \
     $(wildcard include/config/generic/atomic64.h) \
   include/asm-generic/atomic-long.h \
   include/linux/wait.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/current.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/current.h \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
   include/linux/threads.h \
@@ -217,12 +217,12 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/string.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/page.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -231,7 +231,7 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
     $(wildcard include/config/memory/hotplug/sparse.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/glue.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -244,7 +244,7 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/memory.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/dram/size.h) \
@@ -260,7 +260,7 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/arch/msm/scorpion.h) \
     $(wildcard include/config/arch/msm/scorpionmp.h) \
     $(wildcard include/config/arch/msm7x27.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/sizes.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
   include/asm-generic/getorder.h \
@@ -272,7 +272,7 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/debug/mutexes.h) \
   include/linux/rwsem.h \
     $(wildcard include/config/rwsem/generic/spinlock.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/rwsem.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/rwsem.h \
   include/linux/srcu.h \
   include/linux/topology.h \
     $(wildcard include/config/sched/smt.h) \
@@ -285,19 +285,19 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/disable/obsolete/cpumask/functions.h) \
   include/linux/smp.h \
     $(wildcard include/config/use/generic/smp/helpers.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/smp.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/smp.h \
   arch/arm/mach-msm/include/mach/smp.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/hardware/gic.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/hardware/gic.h \
   include/linux/percpu.h \
     $(wildcard include/config/need/per/cpu/embed/first/chunk.h) \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/pfn.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/percpu.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/topology.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
@@ -317,9 +317,9 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/param.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/timex.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/timex.h \
   arch/arm/mach-msm/include/mach/timex.h \
   include/linux/debugobjects.h \
     $(wildcard include/config/debug/objects/free.h) \
@@ -362,14 +362,14 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/migration.h) \
   include/linux/limits.h \
   include/linux/ioctl.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/ioctl.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/linux/kdev_t.h \
   include/linux/dcache.h \
   include/linux/rculist.h \
   include/linux/path.h \
   include/linux/stat.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/stat.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/stat.h \
   include/linux/radix-tree.h \
   include/linux/prio_tree.h \
   include/linux/pid.h \
@@ -388,14 +388,14 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/sunrpc/msg_prot.h \
   include/linux/inet.h \
   include/linux/fcntl.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/fcntl.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/err.h \
   include/linux/major.h \
   include/linux/termios.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/termios.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/termbits.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/ioctls.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/termios.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/termbits.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/ioctls.h \
   include/linux/tty_driver.h \
     $(wildcard include/config/console/poll.h) \
   include/linux/cdev.h \
@@ -412,18 +412,18 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/kmod.h \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/elf.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/user.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/elf.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/user.h \
   include/linux/moduleparam.h \
     $(wildcard include/config/alpha.h) \
     $(wildcard include/config/ia64.h) \
     $(wildcard include/config/ppc64.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/module.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/linux/uaccess.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/uaccess.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/unified.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/uaccess.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
   include/linux/usb.h \
     $(wildcard include/config/usb/devicefs.h) \
@@ -439,7 +439,7 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/att/wakeup.h) \
     $(wildcard include/config/att/battery.h) \
   include/linux/delay.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/delay.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/delay.h \
   include/linux/interrupt.h \
     $(wildcard include/config/pm/sleep.h) \
     $(wildcard include/config/generic/irq/probe.h) \
@@ -488,23 +488,23 @@ deps_drivers/usb/class/cdc-acm.o := \
     $(wildcard include/config/aio.h) \
     $(wildcard include/config/mmu/notifier.h) \
   include/linux/auxvec.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/auxvec.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/auxvec.h \
   include/linux/page-debug-flags.h \
     $(wildcard include/config/page/poisoning.h) \
     $(wildcard include/config/page/debug/something/else.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/mmu.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/mmu.h \
     $(wildcard include/config/cpu/has/asid.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/cputime.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/cputime.h \
   include/asm-generic/cputime.h \
   include/linux/sem.h \
   include/linux/ipc.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/ipcbuf.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/sembuf.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/ipcbuf.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/sembuf.h \
   include/linux/signal.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/signal.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/signal.h \
   include/asm-generic/signal-defs.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/sigcontext.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/siginfo.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/sigcontext.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/siginfo.h \
   include/asm-generic/siginfo.h \
   include/linux/proportions.h \
   include/linux/seccomp.h \
@@ -514,7 +514,7 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
   include/linux/resource.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/resource.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/resource.h \
   include/asm-generic/resource.h \
   include/linux/hrtimer.h \
     $(wildcard include/config/high/res/timers.h) \
@@ -533,8 +533,8 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/uio.h \
   include/linux/ftrace_irq.h \
     $(wildcard include/config/ftrace/nmi/enter.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/hardirq.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/irq.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/hardirq.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/irq.h \
   arch/arm/mach-msm/include/mach/irqs.h \
     $(wildcard include/config/arch/qsd8x50.h) \
     $(wildcard include/config/arch/msm8x60.h) \
@@ -550,11 +550,11 @@ deps_drivers/usb/class/cdc-acm.o := \
   include/linux/pm.h \
     $(wildcard include/config/pm/runtime.h) \
     $(wildcard include/config/pm/ops.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/device.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
   include/linux/usb/cdc.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/unaligned.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/unaligned.h \
   include/linux/unaligned/le_byteshift.h \
   include/linux/unaligned/be_byteshift.h \
   include/linux/unaligned/generic.h \

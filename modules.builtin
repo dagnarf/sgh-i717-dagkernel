@@ -15,6 +15,7 @@ kernel/fs/ext3/ext3.ko
 kernel/fs/ext4/ext4.ko
 kernel/fs/fat/fat.ko
 kernel/fs/fat/vfat.ko
+kernel/fs/fuse/fuse.ko
 kernel/fs/jbd/jbd.ko
 kernel/fs/jbd2/jbd2.ko
 kernel/fs/lockd/lockd.ko
@@ -78,6 +79,9 @@ kernel/drivers/cpufreq/cpufreq_powersave.ko
 kernel/drivers/cpufreq/cpufreq_userspace.ko
 kernel/drivers/cpufreq/cpufreq_ondemand.ko
 kernel/drivers/cpufreq/cpufreq_conservative.ko
+kernel/drivers/cpufreq/cpufreq_interactive.ko
+kernel/drivers/cpufreq/cpufreq_lagfree.ko
+kernel/drivers/cpufreq/cpufreq_smartass2.ko
 kernel/drivers/cpufreq/freq_table.ko
 kernel/drivers/gpio/pmic8901-mpp.ko
 kernel/drivers/gpu/msm/msm_kgsl_core.ko
@@ -452,5 +456,6 @@ kernel/lib/ts_kmp.ko
 kernel/lib/ts_bm.ko
 kernel/lib/ts_fsm.ko
 kernel/lib/reed_solomon/reed_solomon.ko
+kernel/lib/xz/xz_dec.ko
 kernel/lib/zlib_deflate/zlib_deflate.ko
 kernel/lib/zlib_inflate/zlib_inflate.ko

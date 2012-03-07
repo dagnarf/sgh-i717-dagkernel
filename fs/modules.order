@@ -1,0 +1,2 @@
+kernel/fs/exportfs/exportfs.ko
+kernel/fs/nfsd/nfsd.ko

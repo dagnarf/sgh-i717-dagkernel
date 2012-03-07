@@ -13,6 +13,9 @@ kernel/drivers/cpufreq/cpufreq_powersave.ko
 kernel/drivers/cpufreq/cpufreq_userspace.ko
 kernel/drivers/cpufreq/cpufreq_ondemand.ko
 kernel/drivers/cpufreq/cpufreq_conservative.ko
+kernel/drivers/cpufreq/cpufreq_interactive.ko
+kernel/drivers/cpufreq/cpufreq_lagfree.ko
+kernel/drivers/cpufreq/cpufreq_smartass2.ko
 kernel/drivers/cpufreq/freq_table.ko
 kernel/drivers/gpio/pmic8901-mpp.ko
 kernel/drivers/gpu/msm/msm_kgsl_core.ko

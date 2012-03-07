@@ -1,4 +1,5 @@
 deps_config := \
+	lib/xz/Kconfig \
 	lib/Kconfig \
 	drivers/crypto/Kconfig \
 	crypto/async_tx/Kconfig \
@@ -617,7 +618,7 @@ deps_config := \
 include/config/auto.conf: \
 	$(deps_config)
 
-ifneq "$(KERNELVERSION)" "2.6.35.11"
+ifneq "$(KERNELVERSION)" "2.6.35.11-dag0.2"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(ARCH)" "arm"

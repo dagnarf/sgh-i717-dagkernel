@@ -1,10 +1,10 @@
-cmd_arch/arm/mm/tlb-v7.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,arch/arm/mm/.tlb-v7.o.d  -nostdinc -isystem /home/gabe/arm-2009q3/arm-2009q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include -I/home/gabe/stock_note/dagkernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float -gdwarf-2     -Wa,-march=armv7-a  -c -o arch/arm/mm/tlb-v7.o arch/arm/mm/tlb-v7.S
+cmd_arch/arm/mm/tlb-v7.o := /home/gabe/arm-2009q3/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,arch/arm/mm/.tlb-v7.o.d  -nostdinc -isystem /home/gabe/arm-2009q3/arm-2009q3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include -I/home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float     -Wa,-march=armv7-a  -c -o arch/arm/mm/tlb-v7.o arch/arm/mm/tlb-v7.S
 
 deps_arch/arm/mm/tlb-v7.o := \
   arch/arm/mm/tlb-v7.S \
     $(wildcard include/config/arch/msm8x60.h) \
     $(wildcard include/config/smp.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/unified.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
     $(wildcard include/config/thumb2/kernel.h) \
   include/linux/init.h \
@@ -16,10 +16,10 @@ deps_arch/arm/mm/tlb-v7.o := \
     $(wildcard include/config/enable/must/check.h) \
     $(wildcard include/config/enable/warn/deprecated.h) \
   include/linux/linkage.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/linkage.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/asm-offsets.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/linkage.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/asm-offsets.h \
   include/generated/asm-offsets.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/page.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/page.h \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
@@ -33,7 +33,7 @@ deps_arch/arm/mm/tlb-v7.o := \
     $(wildcard include/config/sparsemem.h) \
     $(wildcard include/config/memory/hotplug/sparse.h) \
   include/asm-generic/getorder.h \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/tlbflush.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/tlbflush.h \
     $(wildcard include/config/cpu/tlb/v3.h) \
     $(wildcard include/config/cpu/tlb/v4wt.h) \
     $(wildcard include/config/cpu/tlb/fa.h) \
@@ -43,7 +43,7 @@ deps_arch/arm/mm/tlb-v7.o := \
     $(wildcard include/config/cpu/tlb/v6.h) \
     $(wildcard include/config/cpu/tlb/v7.h) \
     $(wildcard include/config/arm/errata/720789.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/glue.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -58,9 +58,9 @@ deps_arch/arm/mm/tlb-v7.o := \
     $(wildcard include/config/cpu/pabrt/v7.h) \
   arch/arm/mm/proc-macros.S \
     $(wildcard include/config/cpu/dcache/writethrough.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/thread_info.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/gabe/stock_note/dagkernel/arch/arm/include/asm/fpstate.h \
+  /home/gabe/stock_note/sgh-i717-dagkernel/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
 

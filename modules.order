@@ -1,5 +1,7 @@
 kernel/arch/arm/common/cpaccess.ko
 kernel/arch/arm/perfmon/ksapi.ko
+kernel/fs/exportfs/exportfs.ko
+kernel/fs/nfsd/nfsd.ko
 kernel/drivers/video/backlight/lcd.ko
 kernel/drivers/misc/msm_tsif.ko
 kernel/drivers/misc/tsif_chrdev.ko
